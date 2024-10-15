@@ -42,7 +42,7 @@ class DocumentViewController: UIViewController, UIDocumentPickerDelegate {
         self.pdfView?.pageOverlayViewProvider = self.overlayCoordinator
         self.pdfView?.isInMarkupMode = true
         self.pdfView?.panWithTwoFingers()
-        self.customDragGesture()
+        //self.customDragGesture()
     }
     
     @IBAction func openSaveTouched() {
